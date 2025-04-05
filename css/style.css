@@ -183,8 +183,8 @@ body {
   mask-image: linear-gradient(rgba(0,0,0,1), 85%, rgba(0, 0, 0, 0));
 }
 
-/* .hero::after {
-  content: "";
+  /* .hero::after {
+  content: '';
   display: block;
   position: absolute;
   width: 100%;
@@ -196,7 +196,7 @@ body {
     rgba(131, 61, 61, 0) 50%
   );
 } */
- 
+
 .hero .mask-container {
   position: absolute;
   /* background-color: salmon; */
@@ -275,7 +275,7 @@ body {
   display: flex;
 }
 
-.about .row about-img {
+.about .row .about-img {
   flex: 1 1 45rem;
 }
 .about .row .about-img img {
@@ -536,7 +536,7 @@ footer .socials a:hover {
 }
 
 .modal-content img {
-  height: 15rem;
+  height: 18rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
 
